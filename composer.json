@@ -1,0 +1,16 @@
+{
+    "name": "mpessolano/php7",
+    "description": "Ejemplos con las nuevas caracteristicas y funcionalidades de PHP 7",
+    "authors": [
+        {
+            "name": "Marianna Pessolano",
+            "email": "mnpb23@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
