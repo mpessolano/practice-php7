@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {
         "files": [
-            "helpers.php"
+            "src/helpers.php"
         ]
     }
 }

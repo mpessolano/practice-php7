@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 if (!function_exists('newLine')) {
     function newLine(): string
@@ -8,8 +9,9 @@ if (!function_exists('newLine')) {
 }
 
 if (!function_exists('println')) {
-    function println($message = ''): void
+    function println(string $message = ''): void
     {
+        $message = str_replace(["\n", chr(10)], newLine(), $message);
         echo $message . newLine();
     }
 }
